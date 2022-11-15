@@ -1,0 +1,58 @@
+h1 {
+text-align: center;
+background-color: darkblue;
+color: white;
+border: 1px solid black
+
+
+}
+
+#nav {
+    list-style: none;
+
+
+}
+
+#nav li {
+
+    padding: 15px;
+
+}
+
+
+#nav li a {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    background-color: darksalmon;
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 15%;
+    text-align: center;
+
+}
+
+#nav li a:hover {
+    background-color: darkred;
+    color: darksalmon;
+
+}
+
+#nav ul {
+    list-style: none;
+    
+}
+
+#nav ul li a {
+    background-color: salmon;
+    border: 1px solid salmon
+
+}
+
+#nav li:hover > ul {
+
+    display: block;
+
+}
